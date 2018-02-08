@@ -31,5 +31,6 @@ public class ContatoTest {
 		Contato contato2 = new Contato("Barbara", "123456");
 		cdao.inserir(contato2);
 		assertTrue("Contato adicionado", cdao.existe(contato));
+		
 	}
 }
